@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1001%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(84%2c 57%2c 230%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c44 C 57.6%2c71 172.8%2c163.6 288%2c179 C 403.2%2c194.4 460.8%2c108.6 576%2c121 C 691.2%2c133.4 748.8%2c239.6 864%2c241 C 979.2%2c242.4 1036.8%2c122 1152%2c128 C 1267.2%2c134 1382.4%2c242.4 1440%2c271L1440 560L0 560z' fill='rgba(78%2c 17%2c 197%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c344 C 57.6%2c360.6 172.8%2c419.2 288%2c427 C 403.2%2c434.8 460.8%2c361.8 576%2c383 C 691.2%2c404.2 748.8%2c547.4 864%2c533 C 979.2%2c518.6 1036.8%2c326 1152%2c311 C 1267.2%2c296 1382.4%2c428.6 1440%2c458L1440 560L0 560z' fill='rgba(60%2c 24%2c 169%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1001'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand h1 {
+  font-weight: 100;
+  font-size: 50px;
+  color: whitesmoke;
+}
+
+.current-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 130px;
+  font-weight: 100;
+  height: 300px;
+  color: white;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form .input-container {
+  padding: 20px;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+}
+.form label {
+  font-size: 20px;
+  padding: 10px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+}
+.form label .input {
+  background-color: rgba(255, 255, 255, 0.155);
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  transition: 0.3s;
+  font-size: 20px;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  color: white;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.form label .input:focus {
+  background-color: white;
+  color: #000000;
+}
+.form #submit {
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  border-radius: 30px;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  transition: 0.3s;
+  width: 170px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.form #submit:hover {
+  background: #222;
+  color: white;
+}
+.form #submit:active {
+  background: rgb(92, 16, 175);
+  background: linear-gradient(34deg, rgb(107, 21, 200) 0%, rgb(175, 100, 255) 100%);
+}
